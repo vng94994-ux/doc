@@ -11,4 +11,5 @@ getgenv().FPSCap = 60
 getgenv().Guns = {"rifle", "aug"} -- // "flintlock", "db", "lmg"
 
 -- Load external core logic
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vng94994-ux/doctrine/refs/heads/main/stand_core.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vng94994-ux/doc/refs/heads/main/main/stand_core.lua"))()
